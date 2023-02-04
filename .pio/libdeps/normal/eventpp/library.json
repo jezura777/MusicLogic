@@ -1,0 +1,23 @@
+{
+    "name": "eventpp",
+    "description": "C++ library for event dispatcher and callback list",
+    "version": "0.1.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wqking/eventpp.git"
+    },
+    "authors": {
+        "name": "Wang Qi",
+        "url": "https://github.com/wqking",
+        "maintainer": true
+    },
+    "license": "Apache-2.0",
+    "platforms": "*",
+    "frameworks": "*",
+    "build": {
+        "flags": [
+            "-I include/"
+        ]
+    }
+
+}
